@@ -10,3 +10,7 @@ git restore <DATEINAME>                         --  werden die Änderungen verwo
 git reset HEAD <DATEINAME>                      -- entfernt die Datei aus dem Staging Bereich 
 git mv <ALTERDATEINAME> <NEUERDATEINAME>        -- umbenennen einer Stage Datei
 git log --follow <NEUERDATEINAME>               -- zeigt die ältere Historie an
+git checkout <DATEINAME>                        --
+git reset HEAD~2                                -- Rückgängigmachen der letzten zwei Commits
+git log --pretty=oneline -n 2                   -- zeigt die letzen beiden Commit kompakt an 
+
