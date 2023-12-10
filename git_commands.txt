@@ -1,10 +1,12 @@
 ##Git Command Reference
-git add <DATEINAME>                -- fügt eine Datei zum Staging Bereich hinzu
-git rm --cached <DATEINAME>        -- entfernt die Datei aus dem Staging Bereich, --cached parameter wichtig, sonst wird die Datei gelöscht
-git diff                           -- zeigt die Veränderung an
-git status                         -- zeigt den git status an
-git commit -m "Füge Datei hinzu"   -- erstellt ein Commit mit dem Kommentar
-git log                            -- zeigt die Historie des Repository an
-git restore --staged <DATEINAME>   -- entfernt die Datei aus dem Staging Bereich ;NOTE:erst ab Git Version 2.23 möglich
-git reset HEAD index.html
-
+git add <DATEINAME>                             -- fügt eine Datei zum Staging Bereich hinzu
+git rm --cached <DATEINAME>                     -- entfernt die Datei aus dem Staging Bereich, --cached parameter wichtig, sonst wird die Datei gelöscht
+git diff                                        -- zeigt die Veränderung an
+git status                                      -- zeigt den git status an
+git commit -m "Füge Datei hinzu"                -- erstellt ein Commit mit dem Kommentar
+git log                                         -- zeigt die Historie des Repository an
+git restore --staged <DATEINAME>                -- entfernt die Datei aus dem Staging Bereich ;NOTE:erst ab Git Version 2.23 möglich
+git restore <DATEINAME>                         --  werden die Änderungen verworfen
+git reset HEAD <DATEINAME>                      -- entfernt die Datei aus dem Staging Bereich 
+git mv <ALTERDATEINAME> <NEUERDATEINAME>        -- umbenennen einer Stage Datei
+git log --follow <NEUERDATEINAME>               -- zeigt die ältere Historie an
