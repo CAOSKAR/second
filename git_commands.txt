@@ -12,5 +12,17 @@ git mv <ALTERDATEINAME> <NEUERDATEINAME>        -- umbenennen einer Stage Datei
 git log --follow <NEUERDATEINAME>               -- zeigt die ältere Historie an
 git checkout <DATEINAME>                        --
 git reset HEAD~2                                -- Rückgängigmachen der letzten zwei Commits
-git log --pretty=oneline -n 2                   -- zeigt die letzen beiden Commit kompakt an 
+git log --pretty=oneline -n 2                   -- zeigt die letzen beiden Commit kompakt an
+git reset --hard --soft --mixed                 -- mixed ist default soft und mixed nehmen Commit zurück aber Änderung bleibt
+git branch                                      -- zeigt den aktuellen Branch an und * zeigt an auf welchen HEAD verweist also welcher Branch ausgecheckt ist
+git branch menu                                 -- legt den Branch menu an
+git switch menu                                 -- wechselt zum Branch menu ab Version 2.23
+git checkout menu                               -- wechselt zum Branch menu
+git checkout -b content                         -- erstellt und wechselt zum Branch content
+git switch -c content                           -- erstellt und wechselt zum Branch content
+git push --set-upstream origin content          -- erstellt auf dem Github den Branch origin/content
+git push --set-upstream origin menu             -- erstellt auf dem Github den Branch origin/
+git brach -d content                            -- löscht den Branch content, aber nur, wenn dieser bereits gemergt worden ist. Sichere Methode.
+git brach -D content                            -- löscht den Branch content unbeding. 
+
 
