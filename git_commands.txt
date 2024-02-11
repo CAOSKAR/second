@@ -21,8 +21,8 @@ git checkout menu                               -- wechselt zum Branch menu
 git checkout -b content                         -- erstellt und wechselt zum Branch content
 git switch -c content                           -- erstellt und wechselt zum Branch content
 git push --set-upstream origin content          -- erstellt auf dem Github den Branch origin/content
-git push --set-upstream origin menu             -- erstellt auf dem Github den Branch origin/
-git brach -d content                            -- löscht den Branch content, aber nur, wenn dieser bereits gemergt worden ist. Sichere Methode.
-git brach -D content                            -- löscht den Branch content unbeding. 
+git push --set-upstream origin menu             -- erstellt auf dem Github den Branch origin/menu
+git branch -d content                            -- löscht den Branch content, aber nur, wenn dieser bereits gemergt worden ist. Sichere Methode.
+git branch -D content                            -- löscht den Branch content unbedingt. 
 
 
