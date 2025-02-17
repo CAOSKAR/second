@@ -22,7 +22,11 @@ git checkout -b content                         -- erstellt und wechselt zum Bra
 git switch -c content                           -- erstellt und wechselt zum Branch content
 git push --set-upstream origin content          -- erstellt auf dem Github den Branch origin/content
 git push --set-upstream origin menu             -- erstellt auf dem Github den Branch origin/menu
-git branch -d content                            -- löscht den Branch content, aber nur, wenn dieser bereits gemergt worden ist. Sichere Methode.
-git branch -D content                            -- löscht den Branch content unbedingt. 
-
+git branch -d content                           -- löscht den Branch content, aber nur, wenn dieser bereits gemergt worden ist. Sichere Methode.
+git branch -D content                           -- löscht den Branch content unbedingt.
+git stash push                                  -- Wechsel des Branchs, das geänderte soll noch nicht commited werden, dann wird der Workspace gespeichert, mit git status wird angezeigt, dass der Wokspace bereinigt ist
+git stash list                                  -- Anzeige der Stash-Liste
+git stash apply stash@{2}                       -- git stash mit dem Namen 2 anwenden, das heißt in den Workspae schreiben, bleibt aber unter stash weiter erhalten
+git stash pop stash@{2}                         -- git stash mit dem Namen 2 anwenden, das heißt in den Workspae schreiben, wird aber aus stash gelöscht!
+git stash drop stash@{2}                        -- löscht stash 2
 
