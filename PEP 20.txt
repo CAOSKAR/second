@@ -1,0 +1,49 @@
+PEP 20
+The Zen of Python
+by Tim Peters
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren’t special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you’re Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it’s a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let’s do more of those!
+
+Quellennachweis
+https://pep20.org/
+
+Das Zen des Python # Der Genitiv 'des Python' klingt komisch, finde ich, aber 'von Python' finde ich auch doof... :K
+Schön ist besser als hässlich.
+Ausdrücklich ist besser als indirekt.
+Einfach ist besser als komplex.
+Komplex ist besser als kompliziert.
+Direkt ist besser als verschachtelt.
+Licht ist besser als dicht.
+Lesbarkeit zählt.
+Spezialfälle sind nie speziell genug, um die Regeln zu brechen.
+Dennoch geht Machbarkeit vor Regeltreue.
+Fehlermeldungen sollten nicht stillschweigend übergangen werden.
+Außer sie werden ausdrücklich ausgeblendet.
+Im Falle von Uneindeutigkeit widerstehe der Versuchung zu raten.
+Es sollte einen – und vorzüglich NUR einen – offensichtlichen Weg der Lösung geben.
+Obwohl dieser vielleicht nicht sofort offensichtlich ist, es sei denn Du bist Niederländer.
+Jetzt ist besser als nie.
+Obwohl nie bisweilen besser ist als gerade jetzt.
+Ist die Implementierung schwer zu erklären, ist's keine gute Idee.
+Ist die Implementierung leicht zu erklären, könnte es eine gute Idee sein.
+Namensräume sind eine sau gute Idee – lasst uns mehr davon machen
+
+Quellennachweis
+https://www.python-forum.de/viewtopic.php?t=31159
